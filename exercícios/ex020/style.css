@@ -1,0 +1,19 @@
+div {
+    background-color: burlywood;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px Solid rgb(53, 44, 31);
+    height: 200px;
+    width: 200px;
+}
+div:hover {
+    background-color: greenyellow;
+}
+div#d2:hover {
+    background-color: greenyellow;
+}
+div#d2 {
+    background-color: rgb(197, 149, 86);
+}

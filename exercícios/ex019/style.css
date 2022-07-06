@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*
+Tudo em HTML que está em ID é # em CSS
+Assim como em HTML o CLASS é . em CSS
+*/
+
+@font-face {
+    font-family: Gothic ;
+    src: url(fontes/Sketch\ Gothic\ School.ttf) format(truetype);
+}
+
+body {
+background-color: rgb(43, 43, 43);
+font-family: Sketch Gothic School;
+}
+
+p {
+    color: white;
+    font-weight: lighter;
+}
+
+h1 {
+    color: wheat;
+    font-weight: lighter;
+}
+h2 {
+    color: rgb(226, 190, 123);
+    font-weight: lighter;
+}
+
+h1#verde {
+    color: green;
+    font-weight: lighter;
+}
+
+h1#vermelho {
+   color: red;
+   font-weight: lighter; 
+}
+
+h1#azul {
+    color: blue;
+    font-weight: lighter;
+}
+
+p#rosa {
+    color: pink;
+    font-weight: lighter;
+}
+
+p#azulbebe {
+    color: rgb(115, 222, 255);
+    font-weight: lighter;
+}
+
+p#roxo {
+    color: purple;
+    font-weight: lighter;
+}
+
+.nulo {
+    font-weight: lighter;
+    color: rgb(113, 221, 122);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = children
+        */
+
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        a {
+            color: rgb(145, 106, 59);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:visited {
+            color: rgb(110, 79, 42);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(245, 178, 96);
+        }
+        a::after {
+            content: '  [link]';
+            text-decoration: none;
+            font-weight: lighter;
+            color: rgba(145, 106, 59, 0.685);
+        }
+        .especial::before{
+            content: '♡';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" rel="author" href="https://github.com/umestevan?tab=repositories">Repositório GitHub</a></li>
+        <li><a target="_blank" rel="author" href="https://www.youtube.com/channel/UCnlqlEtqHaRdzgzMSLrPpaQ">Canal do YouTube</a></li>
+        <li class="especial"><a target="_blank" rel="author" href="https://www.cursoemvideo.com">Site CursoEmVideo</a></li>
+    </ul>
+</body>
+</html>

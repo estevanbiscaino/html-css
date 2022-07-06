@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Border</title>
+    <style>
+        article#tit {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 20px solid white;
+            padding: 0px;
+            margin: 0;
+
+            /*border-image-source: url('borda.png');
+            border-image-slice: 23;
+            border-image-repeat: repeat;
+            padding: 0px; */
+
+            border-image: url(borda.png) 23 repeat;
+            display: inline-flex;
+        }
+    </style>
+</head>
+<body>
+<header>
+<article id="tit">
+    <h1>Se liga nessa borda personalizada!</h1>
+</article>
+</header>
+<main>
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
